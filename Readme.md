@@ -2,7 +2,7 @@
 
 * Студент: [Darina Smorkalova](https://up.htmlacademy.ru/htmlcss/37/user/2176595).
 * Наставник: Оксана Вайнруб
-
+https://htmlacademy.ru/profile/id166797
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
