@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format(.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format(.woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+.page-header{
+  color: #000000;
+  background-color: #FFFFFF;
+
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height:  24px;
+  color:inherit;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+
+
+.hero {
+
+background-image: url("../images/main-background.png");
+background-repeat: no-repeat;
+background-position: center bottom, center;
+background-size: 100% auto;
+text-align: center;
+margin: 0 auto;
+}
+
+.advantages-sedona{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700px;
+}
+
+.advantages-all {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list{
+  text-align: center;
+}
+
+.advantages-title {
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.advantages-description {
+
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.service-sedona{
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+line-height: 36px;
+}
+
+.service-all {
+  text-align:center;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.service-name {
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.service-description {
+  text-align: center;
+}
+
+.intersed {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.information {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.search-link {
+  font-size: 20px;
+  line-height:  36px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 4px;
+  position: absolute;
+  background-color: #756157;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.newsletter {
+  background-image: url(/images/photo-sedona1.jpg);
+}
+
+.subscribe {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.subscription-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.field {
+  background-color: white;
+  width: 452px;
+  height: 52px;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 345px;
+  font-size:  18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.button-subscription {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #82B3D3;
+}
+
+.footer-contacts {
+  text-align: center;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height:  40px;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  font-weight: 400;
+
+}
