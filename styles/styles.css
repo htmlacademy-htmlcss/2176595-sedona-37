@@ -91,6 +91,10 @@ body {
 
 }
 
+.navigation-list{
+  display:flex;
+}
+
 
 .navigation-link {
   font-size: 20px;
