@@ -430,10 +430,15 @@ width:47px;
 height:40px;
 }
 
+.button{
+  width: 47px;
+    height: 40px;
+    display: block;
+}
+
 
 .footer-social-logo {
-  padding-right: 10px;
-  padding-left: 10px;
+display:block;
 }
 
 .contacts-phone {
@@ -443,7 +448,17 @@ height:40px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 400;
+  display:block;
 
+}
+
+.html-logo{
+width:115px;
+height:33px;
+}
+
+.htmlacademy-logo{
+  display:block;
 }
 
 
