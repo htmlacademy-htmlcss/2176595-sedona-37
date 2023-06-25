@@ -199,7 +199,11 @@ width:1060px;
   width: 400px;
   margin: 0 auto;
   padding: 103px 85px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
 
+.advantages-item:nth-child(2n){
+  background-color:rgba(131, 179, 211, 0.20);
 }
 
 .advantages-title-1 {
@@ -279,6 +283,11 @@ margin:64px 347.5px;
 .service-item{
 width: 400px;
 padding: 265px 85px 80px 85px;
+background-color: rgba(131, 179, 211, 0.20);
+}
+
+.service-item:nth-child(2n){
+background-color: rgba(131, 179, 211, 0.12);
 }
 
 
@@ -345,7 +354,7 @@ min-width: 200px;
 
 
 .newsletter {
-  background-image: url(../images/footer-image.png);
+  background-image: url(../images/Subscribe_footer.jpg);
   color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,7 +413,7 @@ text-align:center;
   display: flex;
   margin:0 auto;
   padding:40px 70px 30px 70px;
-
+justify-content: space-between;
 }
 
 .footer-social-list{
@@ -413,18 +422,20 @@ text-align:center;
   margin:0;
   padding:0;
   justify-content: center;
-
+  flex-wrap:wrap;
 }
+
+.footer-social-item {
+width:47px;
+height:40px;
+}
+
 
 .footer-social-logo {
-padding: 10px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.footer-contacts{
-  width: 740px;
-  margin-left:auto;
-
-}
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -434,8 +445,6 @@ padding: 10px 10px;
   font-weight: 400;
 
 }
-
-
 
 
 .hotels-catalog {
@@ -681,6 +690,11 @@ line-height: 36px;
 text-transform: uppercase;
 text-align: center;
 text-decoration: none;
+padding: 12px 0;
+min-width: 60px;
+display: block;
+height: 60px;
+box-sizing: border-box;
 }
 
 .pagination-link.pagination-current{
