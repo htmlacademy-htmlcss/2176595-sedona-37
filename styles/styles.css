@@ -628,7 +628,9 @@ margin-bottom:0;
 .hotels-type-item:last-child{
   margin-bottom:0;
 }
-
+.hotels-price{
+  margin-right:70px;
+}
 .container-buttons{
   text-align:center;
 }
