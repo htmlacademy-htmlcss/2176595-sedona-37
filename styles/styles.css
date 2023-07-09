@@ -704,6 +704,7 @@ fill: #756157;
 
 .hotels-filter-group{
   padding:0;
+  border:0 none;
 }
 
 .control-input[type="checkbox"]{
@@ -773,6 +774,7 @@ margin-bottom:0;
 }
 .hotels-price{
   margin-right:70px;
+  border:0 none;
 }
 
 .price {
@@ -1043,13 +1045,15 @@ text-align:center;
 .range-scale{
   position: relative;
   height:4px;
-  background-color: rgba(255, 255, 255,0.3);
+  background-color: rgba(255, 255, 255);
+  width: 226px;
 }
+
 
 .range-bar{
   position:absolute;
 height:4px;
-background-color: rgba(255, 255, 255);
+background-color: rgba(255, 255, 255,0.3);
 }
 
 .range-wrapper-inputs{
@@ -1100,14 +1104,10 @@ top:-8px;
 .input-text {
   position: absolute;
   color: black;
-
   margin: 0;
   top: 0;
-
-
   left: 106px;
   font-size: 18px;
-
 font-weight: 400;
 line-height: 24px;
 opacity: 0.25;
@@ -1151,4 +1151,157 @@ opacity: 0.25;
   font-size: 18px;
 font-weight: 400;
 line-height: 21px;
+}
+
+.modal-container {
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display:none;
+
+}
+
+.modal {
+  position: relative;
+  margin:auto;
+  padding: 64px 70px;
+  background-color: white;
+}
+
+.modal-auth {
+  width:717px;
+}
+
+.city-photo{
+  object-fit: cover;
+  height: 100%;
+}
+
+.canyon-logo{
+  object-fit: cover;
+  height:100%;
+}
+
+.date-text{
+  width: 137px;
+  font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-transform: capitalize;
+text-align: start;
+    padding: 12px 0;
+}
+
+.modal-first-date{
+  width:440px;
+  font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+padding:12px 20px;
+background-image: url("../images/icons/calendar.svg");
+background-repeat: no-repeat;
+background-size: 16px 15px;
+border: 0;
+background-position: center right 20px;
+background-color: rgba(242, 242, 242, 1);
+border-radius:4px;
+border:0;
+fill: ;
+}
+
+.modal-last-date{
+  width:440px;
+  font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+padding:12px 20px;
+background-image: url("../images/icons/calendar.svg");
+    background-repeat: no-repeat;
+    background-size: 16px 15px;
+    border: 0;
+    background-position: center right 20px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius:4px;
+border:0;
+}
+
+.modal-date-label{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+.modal-header-container{
+  display:flex;
+  justify-content: space-between;
+}
+.modal-search{
+  font-size: 30px;
+  font-weight:700;
+  line-height:36px;
+  text-transform:uppercase;
+  margin: 0 0 64px 0;
+  width:413px;
+
+}
+
+.modal-close-button{
+  width: 52px;
+  height: 52px;
+
+}
+
+.date-state{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FF5757;
+    padding-left: 157px;
+    text-align: left;
+    padding-top:4px;
+}
+
+.container-count{
+  display:flex;
+}
+
+.modal-adults-text{
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+    padding: 12px 0;
+    width:137px;
+}
+
+.modal-children-text{
+  font-size: 20px;
+
+font-weight: 700;
+line-height: 24px;
+text-align: start;
+    padding: 12px 0;
+    width:137px;
+}
+
+.adults-plus{
+  width:40px;
+  height:47px;
+  border:0;
+  margin:0;
+}
+.adults-minus{
+  width:40px;
+  height:47px;
+  border:0;
+  margin:0;
+  background-image: url("../images/icons/minus.svg");
+  background-position: center;
+
 }

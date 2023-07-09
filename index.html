@@ -14,7 +14,7 @@
             <img class="page-header-logo"  src="images/icons/logo.svg" width="140" height="70" alt="City of Sedona.">
             </a>
         <ul class="navigation-list">
-        <li class="navigation-item current">
+        <li class="navigation-item">
         <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
@@ -207,5 +207,61 @@
           </div>
         </footer>
 </div>
+
+
+<div class="modal-container">
+  <h2 class="visually-hidden">Форма поиска гостиниц</h2>
+  <div class="modal modal-auth">
+
+    <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+      <div class="modal-header-container">
+   <h2 class="modal-search">Поиск гостиницы в Седоне </h2>
+   <button class="modal-close-button">
+    <span class="visually-hidden">Закрыть</span>
+    </button>
+    </div>
+
+
+    <section class="modal-content">
+
+      <label class="modal-date-label">
+        <span class="date-text"> Дата заезда:</span>
+        <input type="text" id="firstDate" class="modal-first-date" placeholder="Укажите дату" name="arrive-date" value="27 апреля 2020">
+        <span class="date-state"> Мы не можем отправить вас в прошлое. </span>
+      </label>
+
+      <label class="modal-date-label">
+        <span class="date-text"> Дата выезда:</span>
+        <input type="text" id="lastDate" class="modal-last-date" placeholder="Укажите дату" name="last-date" value="1 сентября 2023">
+        <span class="date-state"> На эти даты есть свободные номера. Пока есть. </span>
+      </label>
+
+      <div class="container-count">
+
+      <label for="adult count" class="modal-adults-text">Взрослые:
+        </label>
+
+        <div class="container-modal-count">
+          <button class="adults-minus" type="button"> </button>
+          <input class="adult-count" type="number" value="2" min="0" max="10">
+          <button class="adults-plus" type="button"> </button>
+          </div>
+
+          <label for="children count" class="modal-children-text">Дети:
+          </label>
+
+          <div class="container-modal-count">
+            <button class="adults-minus" type="button"> </button>
+            <input class="adult-count" type="number" value="2" min="0" max="10">
+            <button class="adults-plus" type="button"> </button>
+            </div>
+            </div>
+
+
+      </section>
+    </form>
+    </div>
+  <div>
+
   </body>
 </html>
