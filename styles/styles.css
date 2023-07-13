@@ -220,6 +220,7 @@ background-position: bottom center;
 
 .advantages-all {
   text-align: center;
+  justify-content: center;
   font-size: 22px;
   line-height: 26px;
   margin: 0 274px;
