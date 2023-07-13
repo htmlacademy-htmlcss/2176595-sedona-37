@@ -109,7 +109,7 @@ width:1060px;
   padding:0;
   list-style-type:none;
   flex-wrap: wrap;
-  width:270;
+  width:272px;
 }
 
 .navigation-link{
@@ -223,6 +223,7 @@ background-position: bottom center;
   font-size: 22px;
   line-height: 26px;
   margin: 0 274px;
+  width: 652px;
 }
 
 .advantages-main{
