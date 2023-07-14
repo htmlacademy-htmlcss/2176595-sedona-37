@@ -54,6 +54,7 @@ body {
 min-height:100%;
 display: flex;
 flex-direction: column;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.20);
 }
 
 .main-inner {
@@ -188,7 +189,7 @@ text-transform: uppercase;
   margin: 0 auto;
 }
 .hero {
-  background-image: url("../images/icons/bottom-background.svg"),url("../images/main-background.svg");
+  background-image: url("../images/icons/bottom-background.svg"),url("../images/index-background.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: 100% auto, cover;
@@ -236,7 +237,7 @@ background-position: bottom center;
   padding:0;
   background-color:#82B3D3;
   color:white;
-  margin-top: 3px;
+
 }
 
 .city {
@@ -250,16 +251,16 @@ background-position: bottom center;
     padding: 0;
     list-style-type: none;
     flex-wrap: wrap;
+    margin-top: -6px;
 }
 
 .advantages-item {
   width: 400px;
-  margin: 0 auto;
   padding:113px 85px 93px 85px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item:nth-child(2n){
+.advantages-item:nth-child(2nd){
   background-color:rgba(131, 179, 211, 0.20);
 }
 
@@ -506,7 +507,7 @@ display: flex;
   line-height: 24px;
   font-weight: 400;
   width: 143px;
-  padding: 12px 20px;
+  padding: 12px 40px 12px 20px;
   justify-content: space-between;
   border:0;
   border-radius:4px;
@@ -568,6 +569,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 .blue:focus {
   background-color: #68A2CA;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  outline:0;
   }
 
   .blue:active {
@@ -626,6 +628,7 @@ display:block;
   }
   .contacts-phone:focus {
     color: #756157;
+    outline:0;
     }
 
     .contacts-phone:active {
@@ -645,6 +648,7 @@ fill: #756157;
 }
 .htmlacademy-logo:focus {
   fill: #756157;
+  outline:0;
   }
 
   .htmlacademy-logo:active {
@@ -699,6 +703,7 @@ fill: #756157;
 
 .social-icon:focus{
   fill: #68A2CA;
+  outline:none;
 }
 
 .social-icon:active{
@@ -1103,6 +1108,7 @@ border-radius: 4px;
   background-image: url("../images/icons/four-stars.svg");
   width: 140px;
   height:37px;
+  font-size:0;
 }
 
 .stars.three{
@@ -1181,6 +1187,16 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     padding: 0;
     margin-bottom:60px;
+    position: relative;
+}
+
+.pagination::before{
+  width:1060px;
+  height:1px;
+  background-color:#E6E6E6;
+  position: absolute;
+  content: "";
+  top: -40px;
 }
 
 .pagination-item{
@@ -1264,13 +1280,11 @@ border: 0;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.range-toggle:active{
-  outline:3px solid #83B3D3;
-}
-
-.range-toggle:focus{
-  outline:2px solid #83B3D3;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.range-toggle:focus,
+.range-toggle:active {
+  outline: 3px solid rgba(131, 179, 211, 1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 
 .toggle-min {
@@ -1660,7 +1674,7 @@ font-family: 'PT Sans",sans-serif';
         position:absolute;
         top: 52px;
         left: -59px;
-
+display:none;
       }
 
       .button-information{
@@ -1703,6 +1717,10 @@ font-family: 'PT Sans",sans-serif';
         display: flex;
         margin-right: 46px;
         position: relative;
+      }
+
+      .kids-information:hover .popover{
+        display:block;
       }
 
       .breadcrumbs-item{
@@ -1773,3 +1791,73 @@ line-height: 21px;
         fill:rgba(0, 0, 0, 1);
         outline:2px solid #83B3D3;
       }
+
+      .input.email::placeholder {
+        color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(242, 242, 242, 1);
+      }
+
+      .email:hover {
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6)
+      }
+
+      .email:focus {
+        outline: 3px solid rgba(131, 179, 211, 1);
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+
+      .input.modal-first-date::placeholder {
+        color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(242, 242, 242, 1);
+      }
+
+      .modal-first-date:hover {
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6)
+      }
+
+      .modal-first-date:focus {
+        outline: 3px solid rgba(131, 179, 211, 1);
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .input.modal-last-date::placeholder {
+        color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(242, 242, 242, 1);
+      }
+
+      .modal-last-date:hover {
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6)
+      }
+
+      .modal-last-date:focus {
+        outline: 3px solid rgba(131, 179, 211, 1);
+        background-color: rgba(230, 230, 230, 1);
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+
+      .minus:hover,
+.plus:hover,
+.field-quantity:hover {
+  color: rgba(0, 0, 0, 1);
+
+}
+
+.minus-icon:focus,
+.plus-icon:focus {
+  color: rgba(0, 0, 0, 1);
+  outline: 3px solid rgba(130, 179, 211, 1);
+}
+
+
+.minus-icon:active,
+.plus-icon:active {
+  color: rgba(0, 0, 0, 0.2);
+  outline: none;
+}
