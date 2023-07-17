@@ -915,33 +915,37 @@ margin-bottom:0;
 width: 48px;
 height: 48px;
 align-items: center;
-outline: 2px solid#E5E5E5;
+
 display: flex;
-border-radius: 4px;
+
 }
 
-.buttons-icons:first-child{
+
+
+.button-class-light{
+  border-radius: 4px;
+}
+
+.button-class-light:first-child{
+
+}
+
+.button-class-light:hover{
   outline: 2px solid black;
 }
 
-buttons-icons:not(:last-child) {
-margin-right:8px;
-}
-
-.buttons-icons:hover{
-
-  outline: 2px solid black;
-
-}
-
-.buttons-icons:focus{
+.button-class-light:focus{
 
   outline: 2px solid  #68A2CA;
 }
 
-.buttons-icons:active{
+.button-class-light:active{
   border-radius: 4px;
   outline: 2px solid  #000;
+}
+
+.button-class-light.hotels-list{
+  outline: 2px solid black;
 }
 
 .container-buttons{
@@ -1226,6 +1230,7 @@ display: block;
 height: 60px;
 box-sizing: border-box;
 cursor: pointer;
+border-radius: 4px;
 }
 
 .pagination-link.pagination-current{
@@ -1235,6 +1240,7 @@ border-radius: 4px;
     margin-right: 8px;
     cursor: pointer;
     border:0;
+
 }
 
 
