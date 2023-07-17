@@ -456,14 +456,13 @@ body {
   cursor: pointer;
 }
 
-
 .newsletter {
   background-image: url(../images/footer-image.png);
   color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  background-color:#82B3D3
+  background-color:#82B3D3;
   margin: 0;
   width: 1200px;
   padding: 96px 258px 104px 258px;
@@ -1466,7 +1465,11 @@ body {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.modal-close-button:focus {
+.modal-close.{}
+
+
+opacity::hover0.3opacity:0.8;
+
   background-color: #E6E6E6;
   outline: 3px solid #83B3D3;
 }
@@ -1596,7 +1599,6 @@ body {
 .find-hotel {
   width: 577px;
   padding: 18px 257px;
-
   display: flex;
   text-decoration: none;
   font-size: 20px;
@@ -1706,7 +1708,7 @@ body {
   line-height: 21px;
 }
 
-.email:hover: {
+.email:hover{
   background-color: #E6E6E6;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -1781,6 +1783,7 @@ input:focus:-ms-input-placeholder {
   outline: 3px solid rgba(131, 179, 211, 1);
   background-color: rgba(230, 230, 230, 1);
   color: rgba(0, 0, 0, 0.6);
+  border-radius:3px;
 }
 
 
