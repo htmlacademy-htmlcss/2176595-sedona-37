@@ -458,12 +458,12 @@ body {
 
 
 .newsletter {
-  background-image: url(../images/subscribe_footer.jpg);
+  background-image: url(../images/footer-image.png);
   color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  background-color: #000000;
+  background-color:#82B3D3
   margin: 0;
   width: 1200px;
   padding: 96px 258px 104px 258px;
