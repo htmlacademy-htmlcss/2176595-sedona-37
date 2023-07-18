@@ -26,7 +26,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  color: black;
+  color: #000000;
   background-color: #ffffff;
   margin: 0;
   display: flex;
@@ -233,7 +233,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #82b3d3;
-  color: white;
+  color: #ffffff;
 }
 
 .city {
@@ -448,7 +448,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color:#ffffff;
   border-radius: 4px;
   background-color: #756157;
   width: 376px;
@@ -501,7 +501,7 @@ body {
 }
 
 .field {
-  background-color: white;
+  background-color: #ffffff;
   align-items: center;
   font-size: 18px;
   line-height: 24px;
@@ -579,7 +579,7 @@ body {
 
 .blue:disabled {
   background-color: #e5e5e5;
-  color: white;
+  color: #ffffff;
 }
 
 .footer-contacts {
@@ -623,7 +623,7 @@ body {
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 400;
@@ -663,7 +663,7 @@ body {
 }
 
 .hotels-catalog {
-  background-image: url("../images/filter.svg");
+  background-image: url("../images/filter.jpg");
   color: #ffffff;
   width: 1200px;
   padding: 35px 70px 66px 70px;
@@ -814,7 +814,7 @@ body {
 
 .control-input[type="checkbox"]:focus {
   outline: 3px solid #83b3d3;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .control-input[type="checkbox"]:active {
@@ -851,7 +851,7 @@ body {
 
 .control-input[type="radio"]:focus {
   outline: 3px solid #83b3d3;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .hotels-filter-titel {
@@ -928,7 +928,7 @@ body {
 }
 
 .button-class-light:hover {
-  outline: 2px solid black;
+  outline: 2px solid #000000;
 }
 
 .button-class-light:focus {
@@ -941,7 +941,7 @@ body {
 }
 
 .button-class-light.hotels-list {
-  outline: 2px solid black;
+  outline: 2px solid #000000;
 }
 
 .container-buttons {
@@ -979,7 +979,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   background-color: transparent;
-  color: white;
+  color: #ffffff;
   width: 191px;
   padding: 8px;
   font-family: "PT Sans", sans-serif;
@@ -1233,9 +1233,9 @@ body {
 }
 
 .newsletter-hotels {
-  color: black;
+  color: #000000;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #ffffff;
   margin: 0;
   width: 1200px;
   text-align: center;
@@ -1302,7 +1302,7 @@ body {
 
 .input-text {
   position: absolute;
-  color: black;
+  color: #000000;
   margin: 0;
   top: 0;
   right: 20px;
@@ -1327,7 +1327,7 @@ body {
   background-color: #7db54f;
   border-radius: 50%;
   padding: 5px;
-  color: white;
+  color: #ffffff;
 }
 
 .navigation-item.current {
@@ -1387,7 +1387,7 @@ body {
   position: relative;
   margin: auto;
   padding: 64px 70px;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
@@ -1492,7 +1492,7 @@ outline: 3px solid #83b3d3;
 
 .modal-close-button:disabled {
   background-color: #e5e5e5;
-  color: white;
+  color: #ffffff;
 }
 
 .date-state {
@@ -1618,7 +1618,7 @@ outline: 3px solid #83b3d3;
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   background-color: #83b3d3;
   border-radius: 10px;
   font-family: "PT Sans", sans-serif;
@@ -1642,7 +1642,7 @@ outline: 3px solid #83b3d3;
 
 .find-hotels:disabled {
   background-color: #e5e5e5;
-  color: white;
+  color: #ffffff;
 }
 
 .popover {
@@ -1650,7 +1650,7 @@ outline: 3px solid #83b3d3;
   padding: 21px 18px 22px 22px;
   margin: 0;
   background-color: #333333;
-  color: white;
+  color: #ffffff;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   border-radius: 10px;
@@ -1734,25 +1734,25 @@ outline: 3px solid #83b3d3;
 }
 
 .plus-icon:hover {
-  fill: black;
+  fill: #000000;
 }
 
 .minus-icon:hover {
-  fill: black;
+  fill: #000000;
 }
 
 .adults-plus:focus {
-  fill: black;
+  fill: #000000;
   outline: 2px solid #83b3d3;
 }
 
 .adults-minus:focus {
-  fill: black;
+  fill: #000000;
   outline: 2px solid #83b3d3;
 }
 
 .adult-count:focus {
-  fill: black;
+  fill: #000000;
   outline: 2px solid #83b3d3;
 }
 
